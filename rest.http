@@ -1,0 +1,25 @@
+###
+GET http://localhost:8000/drinks
+
+
+###
+POST http://localhost:8000/drinks/
+Content-Type: application/json
+
+{
+  "name": "Latte",
+  "description": "very latte"
+}
+
+###
+DELETE http://localhost:8000/api/users/2
+
+###
+PUT http://localhost:8000/api/users/4
+Content-Type: application/json
+
+{
+  "username": "Jake",
+  "email": "jake@example.com"
+}
+
