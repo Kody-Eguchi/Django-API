@@ -15,14 +15,14 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:8000/api/users/2
+DELETE http://localhost:8000/
 
 ###
-PUT http://localhost:8000/api/users/4
+PUT http://localhost:8000/drinks/3
 Content-Type: application/json
 
 {
-  "username": "Jake",
-  "email": "jake@example.com"
+  "name": "Organge Juice",
+  "description": "very orangy"
 }
 
